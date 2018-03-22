@@ -1,0 +1,7 @@
+{
+	"I want to book a room": {
+		"path": "hotel-booking",
+		"text": "We have the following suites available with connecting rooms for 2 nights arriving on Tuesday, December 12th.",
+		"buttonText": "Choose a room"
+	}
+}
