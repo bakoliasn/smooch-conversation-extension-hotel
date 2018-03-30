@@ -1,4 +1,9 @@
-### Hotel Booking
+## Explanation
+
+  This service listens for appUser messages from Smooch and responds with a button triggering a webview. The webview acts as a multi-page form, which when submitted makes a call to the backend of this service containing the data submitted by the user. The backend then calls Smooch to echo the selection into the conversation as an appUser message.
+
+
+## Hotel Booking
 ![Hotel Booking Preview](https://smooch.io/static_assets/images/shared/hotel-booking-preview.jpg)
 
 ## Prerequisites
@@ -19,9 +24,5 @@
   1. open your browser to localhost:8000 or whichever port you specified in the .env file
   2. click the "Add Messenger" button
   3. check out the intents.json file to see what text can be used to trigger a conversation-extension button
-
-## Explanation
-
-  This service listens for appUser messages from Smooch and responds with a button triggering a webview. The webview acts as a multi-page form, which when submitted makes a call to the backend of this service containing the data submitted by the user. The backend then calls Smooch to echo the selection into the conversation as an appUser message.
 
 To learn more about conversation extensions see the [Guide](https://docs.smooch.io/guide/conversation-extensions/), where you can also follow along with an example written in React.
